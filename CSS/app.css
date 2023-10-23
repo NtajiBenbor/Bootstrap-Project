@@ -1,0 +1,11 @@
+
+
+#navitemRef .nav-link{
+    font-weight: 500;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.site-title {
+    font-weight: 700;
+}
