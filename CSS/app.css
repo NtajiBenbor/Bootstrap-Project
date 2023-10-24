@@ -90,17 +90,25 @@ body {
 
 
 /* ==Media Queries== */
-@media (min-width: 768px) and (max-width: 991px) {
-    #heroText p {
+@media  (max-width: 991px) {
+    #heroText p,
+    #featuresDescription p,
+    #featuresDescription li  {
         font-size: 1rem;
     }
 
     #heroText h1 {
-        font-size: 1rem;
+        font-size: 2.2rem;
+        
     }
 
     #heroText h2 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
+
+    #featuresDescription h3 {
+        font-size: 1.7rem;
+    }
+
 }
 
