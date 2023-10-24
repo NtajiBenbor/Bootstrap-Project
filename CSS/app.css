@@ -1,7 +1,26 @@
- body {
+/* == CSS Reset== */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Noto Sans', sans-serif;
-    background: #f2f2f2;
+    background-color: var(--secondary-color);
  }
+
+ /* ==Custom Properties== */
+
+:root {
+    --primary-color:#013220;
+    --secondary-color:#EDEAE0;
+    --btn-clear:#E3DAC9;
+    --btn-hover:#2E8B57;
+}
+
+
+
+
+ /* ==NavBar Styles== */
 
 #navitemRef .nav-link{
     font-weight: 500;
@@ -14,35 +33,63 @@
 }
 
 #navitemRef .nav-link:hover{
-    color: #004225;
+    color: var(--primary-color);
     
 }
 
-section {
-    margin-top: 100px;
+
+
+/* ==Typography Styles== */
+.site-title {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* #heroText > p {
+    margin-bottom: 7em;
+} */
+
+.strong {
+    font-weight: 700;
+}
+/* === Layout Styles === */
+
+.section-height {
+    height: 100vh;
 }
 
 
-.site-title {
-    font-weight: 700;
-    color: #004225;
+.section {
+    margin-top: 100px;
+
+}
+
+
+
+
+/* ==Button Styles== */
+.hero-btn {
+    background-color: var(--btn-clear); 
+    
 }
 
 .green-bg {
-    background-color: #004225;
+    background-color: var(--primary-color);
 }
 
-.green-bg:hover, 
-.light-bg:hover {
-    background-color: #1E4D2B;
+.green-bg:hover,
+.light-bg:hover  {
+    background-color: var(--btn-hover);
 }
 
-.light-bg {
-    background-color: beige;
-    border: 1px solid #004225;
+.light-bg:hover  {
+    color: white;
 }
 
 
+
+
+/* ==Media Queries== */
 @media (min-width: 768px) and (max-width: 991px) {
     #heroText p {
         font-size: 1rem;
