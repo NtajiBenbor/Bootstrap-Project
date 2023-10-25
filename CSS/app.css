@@ -39,10 +39,11 @@ body {
     font-weight: 500;
     color: #616161;
     text-transform: uppercase;
-    transition: color 300ms;
+    transition: color 300ms, background-color 300ms ease;
     font-size: 1.1rem;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 2px;
+    border-radius: 10px;
+    
+
 }
 
 #navitemRef .nav-link:hover{
@@ -170,13 +171,28 @@ hr.Faq-line {
 
 }
 
-@media (min-width: 576px) {
+@media (min-width: 577px) {
+
+    #navitemRef .nav-link:hover {
+        background-color: var(--primary-color); 
+        color: var(--secondary-color);
+    }
     .product-teir-cards {
         transition: box-shadow 300ms ease;
     }
     
     .product-teir-cards:hover {
         box-shadow: 8px 8px 0 0 rgb(0, 0, 0);
+    }
+
+    address {
+        text-align: right;
+        color: var(--primary-color);
+        font-weight: 700;
+    }
+
+    address + div {
+        text-align: center;
     }
     
 }
@@ -194,6 +210,7 @@ hr.Faq-line {
 
     #navitemRef .nav-link {
         color: white;
+        font-family: 'Oswald', sans-serif;
     }
 
     #navitemRef .nav-link:hover {
