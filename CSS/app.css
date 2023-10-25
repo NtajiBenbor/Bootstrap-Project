@@ -6,7 +6,18 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     background-color: var(--secondary-color);
+    scroll-behavior: smooth;
  }
+
+::-webkit-scrollbar {
+    width: .7em;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--btn-hover);
+    border-radius: 10px;
+}
 
  /* ==Custom Properties== */
 
@@ -45,13 +56,18 @@ body {
     color: var(--primary-color);
 }
 
-/* #heroText > p {
-    margin-bottom: 7em;
-} */
 
 .strong {
     font-weight: 700;
 }
+
+hr.Faq-line {
+    border: 1px solid ;
+    background-color: var(--primary-color);
+
+}
+
+
 /* === Layout Styles === */
 
 .section-height {
