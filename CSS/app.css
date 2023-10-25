@@ -184,7 +184,7 @@ hr.Faq-line {
 
 @media (max-width:576px) {
     #nav-sm-bg {
-        background-color: var(--primary-color);
+        background-color: var(--btn-hover);
         
     }
 
@@ -195,6 +195,12 @@ hr.Faq-line {
     #navitemRef .nav-link {
         color: white;
     }
+
+    #navitemRef .nav-link:hover {
+        color: #000000;
+        font-weight: 700;
+    }
+
     .footer {
         background-color: var(--btn-hover);
         color: var(--secondary-color);
