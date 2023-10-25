@@ -32,7 +32,9 @@ body {
 
 
  /* ==NavBar Styles== */
-
+#nav-sm-bg {
+    background-color: white;
+}
 #navitemRef .nav-link{
     font-weight: 500;
     color: #616161;
@@ -125,22 +127,20 @@ hr.Faq-line {
     
 }
 
-.footer ul {
-    list-style: none; 
-    padding-left: 0;
-}
+
 
 
 .arrow-space {
     margin-right: 3em;
 }
 
-.product-teir-cards {
-    transition: box-shadow 300ms ease;
-}
 
-.product-teir-cards:hover {
-    box-shadow: 8px 8px 0 0 rgb(0, 0, 0);
+
+
+/* FOOTER STYLES */
+.footer ul {
+    list-style: none; 
+    padding-left: 0;
 }
 
 /* ==Media Queries== */
@@ -164,5 +164,40 @@ hr.Faq-line {
         font-size: 1.7rem;
     }
 
+    .p-sm-lg {
+        font-size: 1rem;
+    }
+
 }
 
+@media (min-width: 576px) {
+    .product-teir-cards {
+        transition: box-shadow 300ms ease;
+    }
+    
+    .product-teir-cards:hover {
+        box-shadow: 8px 8px 0 0 rgb(0, 0, 0);
+    }
+    
+}
+
+
+@media (max-width:576px) {
+    #nav-sm-bg {
+        background-color: var(--primary-color);
+        
+    }
+
+    .site-title {
+        color: var(--secondary-color);
+    }
+
+    #navitemRef .nav-link {
+        color: white;
+    }
+    .footer {
+        background-color: var(--btn-hover);
+        color: var(--secondary-color);
+        padding-top: 1em;
+    }
+}
