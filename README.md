@@ -11,7 +11,7 @@
 
 
 ## 1. Project Overview :smile:
-This project involves creating a responsive landing page for a fictional illustration company called ** Owl-Vector **. The company sells illustrations and clip art intended for developers to incorporate into their products. The plan is to further develop this project using JavaScript in the future, aiming to transition it into an e-commerce platform. The goal is to improve user experience, enable smoother transactions, and create a more dynamic online space for digital art enthusiasts.
+This project involves creating a responsive landing page for a fictional illustration company called Owl-Vector. The company sells illustrations and clip art intended for developers to incorporate into their products. The plan is to further develop this project using JavaScript in the future, aiming to transition it into an e-commerce platform. The goal is to improve user experience, enable smoother transactions, and create a more dynamic online space for digital art enthusiasts.
 
 ***
 check it out [here](https://owlvector.netlify.app/)
